@@ -1,21 +1,33 @@
-<nav class="navbar bg-primary sticky-top">
-  <a class="navbar-brand text-light" href="#">TeamBuilder</a>
+<nav class="navbar bg-primary bg-gradient fixed-top border-bottom border-5 border-secondary shadow" data-bs-theme="dark">
+  <div class="container-fluid">
+    <span class="navbar-brand fw-bold"><fa-icon [icon]="group"></fa-icon>&nbsp;TeamBuilder</span>
+  </div>
 </nav>
 
 <main class="container-fluid">
   <div class="row">
-    <div class="col-6">
+    <div class="col">
+      <p>
+        Wenn du eine Gruppe von Menschen in mehrere Teams aufteilen willst, füge
+        zunächst die Personen hinzu. Wähle dann, wie viele Teams du bilden
+        möchtest.
+      </p>
+    </div>
+  </div>
+
+  <div class="row gy-4">
+    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
       <app-person-list></app-person-list>
     </div>
 
-    <div class="col-6">
+    <div class="col-12 col-sm-6 col-md-6 col-lg-8">
       <app-teams-start></app-teams-start>
     </div>
   </div>
-
-  <div class="row mt-4">
-    <div class="col-6">
-<!--      <app-person-form [person]="createPerson('')"></app-person-form>-->
-    </div>
-  </div>
 </main>
+
+<footer class="bg-body-tertiary p-3 fixed-bottom d-flex justify-content-end">
+  <span class="ms-auto">
+    Mit <fa-icon [icon]="heart" class="text-danger"></fa-icon> gemacht von Ray.
+  </span>
+</footer>

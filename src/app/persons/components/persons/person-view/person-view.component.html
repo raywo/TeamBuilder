@@ -4,14 +4,20 @@
   </div>
   <div>
     <button type="button"
-            class="btn btn-sm btn-outline-primary me-2"
+            class="btn btn-sm btn-outline-secondary me-2"
+            placement="bottom"
+            ngbTooltip="Namen ändern"
             (click)="onRename()">
-      Umbenennen
+      <span class="visually-hidden">Namen ändern</span>
+      <fa-icon [icon]="pen"></fa-icon>
     </button>
     <button type="button"
             class="btn btn-sm btn-outline-danger"
+            placement="bottom"
+            ngbTooltip="Entfernen"
             (click)="onDelete()">
-      Entfernen
+      <span class="visually-hidden">Entfernen</span>
+      <fa-icon [icon]="trash"></fa-icon>
     </button>
   </div>
 </div>

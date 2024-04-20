@@ -20,7 +20,7 @@ export class PersonListComponent implements OnInit {
   private personService: PersonService = inject(PersonService);
 
   protected persons$ = this.personService.persons$;
-  protected isAdding: boolean = false
+  protected isAdding: boolean = false;
   protected newPerson?: Person;
   protected personToEdit?: Person;
 

@@ -1,4 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import "styles/bootstrap-custom";
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+
+body {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+h2 {
+  font-size: calc(1rem + 0.8vw);
+}
+
+h3 {
+  font-size: calc(1rem + 0.4vw);
+}
+
+.btn-primary {
+  color: white;
+}
+
+.btn-outline-primary {
+  --bs-btn-hover-color: #ffffff;
+}
+
+
+@media (min-width: 1200px) {
+
+  h2 {
+    font-size: calc(1rem + 0.8vw);
+  }
+
+  h3 {
+    font-size: calc(1rem + 0.4vw);
+  }
+
+}

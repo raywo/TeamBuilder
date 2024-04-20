@@ -23,7 +23,7 @@ export class TeamsStartComponent implements OnInit{
 
   ngOnInit(): void {
     this.teamService.buildTeams({
-      count: 3,
+      count: 6,
       markDriver: true
     });
   }

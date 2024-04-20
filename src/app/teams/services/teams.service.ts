@@ -4,7 +4,7 @@ import {createTeam, Team} from "../models/team.model";
 import {TeamBuildRequest} from "../models/team-build-request.model";
 import {PersonService} from "../../persons/services/person.service";
 import {Person} from "../../persons/models/person.model";
-import {createMember, Member} from "../models/member.model";
+import {createMember} from "../models/member.model";
 
 @Injectable({
   providedIn: 'root'
@@ -20,6 +20,31 @@ export class TeamsService {
     personService.persons$.subscribe(persons => this.persons = persons);
   }
 
+  public buildTeams(request: TeamBuildRequest) {
+    const teams: Team[] = [];
+    let availablePersons = [...this.persons];
+
+    for (let i = 0; i < request.count; i++) {
+      teams.push(createTeam(i + 1, []));
+    }
+
+    let loopCount = 0;
+    while (availablePersons.length > 0) {
+      for (let i = 0; i < request.count; i++) {
+        if (availablePersons.length === 0) break;
+
+        const {person, newAvailablePersons} = this.takePersonFrom(availablePersons);
+        availablePersons = newAvailablePersons;
+
+        teams[i].members.push(createMember(TeamsService.isDriver(loopCount, request.markDriver), person));
+      }
+
+      loopCount += 1;
+    }
+
+    this.teams = teams;
+  }
+
 
   private get teams(): Team[] {
     return this.teamsSubject.getValue();
@@ -27,27 +52,6 @@ export class TeamsService {
 
   private set teams(teams: Team[]) {
     this.teamsSubject.next(teams)
-  }
-
-  public buildTeams(request: TeamBuildRequest) {
-    const teams: Team[] = [];
-    const membersPerTeam = Math.ceil(this.persons.length / request.count);
-    let availablePersons = [...this.persons];
-
-    for (let i = 0; i < request.count; i++) {
-      const members: Member[] = [];
-
-      for (let j = 0; j < membersPerTeam; j++) {
-        const {person, newAvailablePersons} = this.takePersonFrom(availablePersons)
-        availablePersons = newAvailablePersons;
-
-        members.push(createMember(TeamsService.isDriver(j, request.markDriver), person));
-      }
-
-      teams.push(createTeam(i + 1, members));
-    }
-
-    this.teams = teams;
   }
 
 

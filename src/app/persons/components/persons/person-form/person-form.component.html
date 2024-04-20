@@ -1,6 +1,6 @@
 <form class="was-validated" (ngSubmit)="onSubmit()">
-  <div class="d-flex justify-content-between align-items-start">
-    <div class="col me-2">
+  <div class="row ">
+    <div class="col">
       <label for="nameInput" class="visually-hidden">Name</label>
       <input type="text" class="form-control"
              id="nameInput"
@@ -14,8 +14,10 @@
         Bitte gib einen Namen an.
       </div>
     </div>
+  </div>
 
-    <div>
+  <div class="row">
+    <div class="col d-flex justify-content-end align-items-start">
       <button type="submit" class="btn btn-primary me-2">Speichern</button>
       <button type="button" class="btn btn-outline-secondary ">Abbrechen</button>
     </div>

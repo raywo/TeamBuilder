@@ -1,0 +1,9 @@
+<div class="">
+  @if (member().isDriver) {
+    <fa-icon [icon]="car" class="text-primary"></fa-icon>&nbsp;
+  } @else {
+    <fa-icon [icon]="compass"></fa-icon>&nbsp;
+  }
+
+  <span [class.text-primary]="member().isDriver">{{ member().person.name }}</span>
+</div>

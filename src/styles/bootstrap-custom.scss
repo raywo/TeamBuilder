@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
+
+// Fonts
+$font-family-sans-serif: 'Exo', sans-serif;
+
+// Colors
+$primary: #ff0022; // #c73e1d; // #53131e; //#09203f;
+$secondary: #011327;
+
+$headings-color: $secondary;
+
+$list-group-border-color: mix(white, $primary, 60%);
+$card-border-color: mix(white, $primary, 60%);
+
+$btn-hover-bg-tint-amount: 30%;
+$btn-hover-bg-shade-amount: 90%;
+$btn-active-bg-shade-amount: 90%;
