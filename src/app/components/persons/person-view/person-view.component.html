@@ -1,0 +1,17 @@
+<div class="d-flex justify-content-between py-1 align-items-center">
+  <div class="">
+    <span class="fw-bolder">{{ person().name }}</span>
+  </div>
+  <div>
+    <button type="button"
+            class="btn btn-sm btn-outline-primary me-2"
+            (click)="onRename()">
+      Umbenennen
+    </button>
+    <button type="button"
+            class="btn btn-sm btn-outline-danger"
+            (click)="onDelete()">
+      Entfernen
+    </button>
+  </div>
+</div>

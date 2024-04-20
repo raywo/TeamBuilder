@@ -1,0 +1,23 @@
+<form class="was-validated" (ngSubmit)="onSubmit()">
+  <div class="d-flex justify-content-between align-items-start">
+    <div class="col me-2">
+      <label for="nameInput" class="visually-hidden">Name</label>
+      <input type="text" class="form-control"
+             id="nameInput"
+             placeholder="Name"
+             name="name"
+             required
+             autofocus
+             [(ngModel)]="personToEdit.name">
+
+      <div class="invalid-feedback">
+        Bitte gib einen Namen an.
+      </div>
+    </div>
+
+    <div>
+      <button type="submit" class="btn btn-primary me-2">Speichern</button>
+      <button type="button" class="btn btn-outline-secondary ">Abbrechen</button>
+    </div>
+  </div>
+</form>
