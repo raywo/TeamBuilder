@@ -26,7 +26,7 @@ export class PersonListComponent implements OnInit {
 
 
   ngOnInit(): void {
-    // this.personService.createFakeData();
+    this.personService.createFakeData();
   }
 
   onAddPerson() {

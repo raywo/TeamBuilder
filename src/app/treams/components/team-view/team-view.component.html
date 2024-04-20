@@ -1,0 +1,13 @@
+<div class="card my-3">
+  <h3 class="card-header">Team {{team().teamNumber}}</h3>
+
+  <ul class="list-group list-group-flush">
+    @for(member of team().members; track member) {
+      <li class="list-group-item">
+        <app-member-view [member]="member"></app-member-view>
+      </li>
+    }
+  </ul>
+</div>
+
+

@@ -22,6 +22,9 @@ export class PersonService {
     this.addPerson(createPerson('Peter'));
     this.addPerson(createPerson('Paul'));
     this.addPerson(createPerson('Mary'));
+    this.addPerson(createPerson('Yael'));
+    this.addPerson(createPerson('Titus'));
+    this.addPerson(createPerson('Tiberius'));
   }
 
 
