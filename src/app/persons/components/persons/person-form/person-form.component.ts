@@ -1,13 +1,15 @@
 import {Component, EventEmitter, input, OnInit, Output} from '@angular/core';
 import {createPerson, Person} from "../../../models/person.model";
 import {FormsModule} from "@angular/forms";
+import {AutofocusDirective} from "../../../../shared/directives/autofocus.directive";
 
 
 @Component({
   selector: 'app-person-form',
   standalone: true,
   imports: [
-    FormsModule
+    FormsModule,
+    AutofocusDirective
   ],
   templateUrl: './person-form.component.html'
 })
