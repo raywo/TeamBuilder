@@ -5,6 +5,7 @@ import {faPencil} from "@fortawesome/free-solid-svg-icons";
 import {NgbTooltip} from "@ng-bootstrap/ng-bootstrap";
 import {faTrashCan} from "@fortawesome/free-regular-svg-icons";
 
+
 @Component({
   selector: 'app-person-view',
   standalone: true,
@@ -23,9 +24,11 @@ export class PersonViewComponent {
   protected pen = faPencil;
   protected trash = faTrashCan;
 
+
   onRename() {
     this.rename.emit(this.person());
   }
+
 
   onDelete() {
     this.delete.emit(this.person());

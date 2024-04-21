@@ -3,6 +3,7 @@ import {TeamsService} from "../../services/teams.service";
 import {AsyncPipe} from "@angular/common";
 import {TeamViewComponent} from "../team-view/team-view.component";
 
+
 @Component({
   selector: 'app-teams-list',
   standalone: true,

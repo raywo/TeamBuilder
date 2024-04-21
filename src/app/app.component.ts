@@ -24,6 +24,7 @@ export class AppComponent implements OnInit {
   protected group = faPeopleGroup;
   protected heart = faHeart;
 
+
   ngOnInit(): void {
     this.stateManagement.restoreState();
   }

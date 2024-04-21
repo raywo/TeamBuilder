@@ -4,6 +4,7 @@ import {faCar} from "@fortawesome/free-solid-svg-icons";
 import {FaIconComponent} from "@fortawesome/angular-fontawesome";
 import {faCompass} from "@fortawesome/free-regular-svg-icons";
 
+
 @Component({
   selector: 'app-member-view',
   standalone: true,

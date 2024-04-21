@@ -17,11 +17,6 @@ export class PersonService {
   }
 
 
-  public getPersons() {
-    return this.persons;
-  }
-
-
   public addPerson(person: Person) {
     this.persons = [...this.persons, person];
   }

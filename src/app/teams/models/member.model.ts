@@ -1,5 +1,6 @@
 import {Person} from "../../persons/models/person.model";
 
+
 export interface Member {
 
   isDriver: boolean;

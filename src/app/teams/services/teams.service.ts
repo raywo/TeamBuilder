@@ -34,11 +34,6 @@ export class TeamsService {
   }
 
 
-  public getTeams(): Team[] {
-    return this.teams;
-  }
-
-
   public buildTeams(request: TeamBuildRequest) {
     const teams: Team[] = [];
     let availablePersons = [...this.persons];

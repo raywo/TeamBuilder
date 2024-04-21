@@ -2,6 +2,7 @@ import {Component, input} from '@angular/core';
 import {Team} from "../../models/team.model";
 import {MemberViewComponent} from "../member-view/member-view.component";
 
+
 @Component({
   selector: 'app-team-view',
   standalone: true,
