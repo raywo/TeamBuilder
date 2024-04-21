@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="de" target-language="de" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Schließen</source>
+        <target>Schließen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/alert/alert.ts</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source/>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">154,163</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">194,196</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">227</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">100,103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">297,300</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">322,324</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">348</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">377,378</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">402</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">418,420</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">443,444</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">470,474</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/progressbar/progressbar.ts</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">247</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">279,281</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">305,306</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">332,333</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">360,362</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">396,398</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">432,434</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">441</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">441</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">441</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">441</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">441</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">441</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@16.0.0_@angular+common@17.3.5_@angular+core@17.3.5_@angular+forms@_5maojatcejcdetxx67npb5i6re/node_modules/src/toast/toast.ts</context>
+          <context context-type="linenumber">103,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.footer-text" datatype="html">
+        <source> Mit 🩶 gemacht von Ray. </source>
+        <target> Mit 🩶 gemacht von Ray. </target>
+        <note priority="1" from="meaning">Made with love claim in footer</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">72,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.name-placeholder" datatype="html">
+        <source>Name</source>
+        <target>Name</target>
+        <note priority="1" from="meaning">The placeholder for the name input field of a person.</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/persons/components/persons/person-form/person-form.component.html</context>
+          <context context-type="linenumber">8,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.invalid-name" datatype="html">
+        <source> Bitte gib einen Namen an. </source>
+        <target> Bitte gib einen Namen an. </target>
+        <note priority="1" from="meaning">Invalid feedback for name input</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/persons/components/persons/person-form/person-form.component.html</context>
+          <context context-type="linenumber">15,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.cancel" datatype="html">
+        <source> Abbrechen </source>
+        <target> Abbrechen </target>
+        <note priority="1" from="meaning">Caption for cancel button</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/persons/components/persons/person-form/person-form.component.html</context>
+          <context context-type="linenumber">30,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.persons-heading" datatype="html">
+        <source>Personen</source>
+        <target>Personen</target>
+        <note priority="1" from="meaning">Heading persons view</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/persons/components/persons/person-list/person-list.component.html</context>
+          <context context-type="linenumber">3,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.no-persons-yet-heading" datatype="html">
+        <source> Noch niemand da! </source>
+        <target> Noch niemand da! </target>
+        <note priority="1" from="meaning">Heading for when no persons have been entered yet.</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/persons/components/persons/person-list/person-list.component.html</context>
+          <context context-type="linenumber">14,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.add-persons-explanation" datatype="html">
+        <source> Du hast noch keine Personen erfasst. Klicke auf „Hinzufügen“, um deine erste Person zu erfassen. </source>
+        <target> Du hast noch keine Personen erfasst. Klicke auf „Hinzufügen“, um deine erste Person zu erfassen. </target>
+        <note priority="1" from="meaning">Explanation of how to add persons.</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/persons/components/persons/person-list/person-list.component.html</context>
+          <context context-type="linenumber">18,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.add" datatype="html">
+        <source> Hinzufügen </source>
+        <target> Hinzufügen </target>
+        <note priority="1" from="meaning">Caption for add button</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/persons/components/persons/person-list/person-list.component.html</context>
+          <context context-type="linenumber">25,27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/persons/components/persons/person-list/person-list.component.html</context>
+          <context context-type="linenumber">40,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.save" datatype="html">
+        <source> Speichern </source>
+        <target> Speichern </target>
+        <note priority="1" from="meaning">Caption for save button</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/persons/components/persons/person-form/person-form.component.html</context>
+          <context context-type="linenumber">25,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.edit-name" datatype="html">
+        <source>Namen ändern</source>
+        <target>Namen ändern</target>
+        <note priority="1" from="meaning">Tooltip / button caption for edit name button</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/persons/components/persons/person-view/person-view.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/persons/components/persons/person-view/person-view.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.delete" datatype="html">
+        <source>Entfernen</source>
+        <target>Entfernen</target>
+        <note priority="1" from="meaning">Tooltip / button caption for delete button</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/persons/components/persons/person-view/person-view.component.html</context>
+          <context context-type="linenumber">18,20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/persons/components/persons/person-view/person-view.component.html</context>
+          <context context-type="linenumber">21,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.team-no" datatype="html">
+        <source> Team <x id="INTERPOLATION" equiv-text="{{team().teamNumber}}"/> </source>
+        <target> Team <x id="INTERPOLATION" equiv-text="{{team().teamNumber}}"/> </target>
+        <note priority="1" from="meaning">Team as in Team #</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/teams/components/team-view/team-view.component.html</context>
+          <context context-type="linenumber">3,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.team-count" datatype="html">
+        <source>Anzahl an Teams</source>
+        <target>Anzahl an Teams</target>
+        <note priority="1" from="meaning">Placeholder/Label for team count</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/teams/components/teams-form/teams-form.component.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/teams/components/teams-form/teams-form.component.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.driver-switch" datatype="html">
+        <source> Bestimme einen „Driver“ </source>
+        <target> Bestimme einen „Driver“ </target>
+        <note priority="1" from="meaning">Label caption for assign a driver</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/teams/components/teams-form/teams-form.component.html</context>
+          <context context-type="linenumber">32,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.driver-explanation" datatype="html">
+        <source> Das Teammitglied mit der „Driver“-Rolle übernimmt die Tastatur und teilt ggf. den Bildschirm. Alle anderen Mitglieder übernehmen die „Navigator“-Rolle und leiten den „Driver“ an. </source>
+        <target> Das Teammitglied mit der „Driver“-Rolle übernimmt die Tastatur und teilt ggf. den Bildschirm. Alle anderen Mitglieder übernehmen die „Navigator“-Rolle und leiten den „Driver“ an. </target>
+        <note priority="1" from="meaning">Explanation for driver role.</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/teams/components/teams-form/teams-form.component.html</context>
+          <context context-type="linenumber">36,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.build-team" datatype="html">
+        <source>Bilde die Teams</source>
+        <target>Bilde die Teams</target>
+        <note priority="1" from="meaning">Submit button for team building</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/teams/components/teams-form/teams-form.component.html</context>
+          <context context-type="linenumber">47,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.teams-heading" datatype="html">
+        <source>Teams</source>
+        <target>Teams</target>
+        <note priority="1" from="meaning">Heading for teams view</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/teams/components/teams-start/teams-start.component.html</context>
+          <context context-type="linenumber">3,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.select-lang" datatype="html">
+        <source>Sprachauswahl</source>
+        <target>Sprachauswahl</target>
+        <note priority="1" from="meaning">Select language menu in menu bar</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">19,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.slogan" datatype="html">
+        <source>Einfach Teams erstellen</source>
+        <target>Einfach Teams erstellen</target>
+        <note priority="1" from="meaning">Slogan for TeamBuilder</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">41,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.what-is" datatype="html">
+        <source> Mit TeamBuilder ist es leicht, Paare oder kleinere Teams aus einer Gruppe von Personen zu erstellen. Gib einfach die Namen aller Personen ein und wie viele Teams du erstellen möchtest, Schon kann’s losgehen. </source>
+        <target> Mit TeamBuilder ist es leicht, Paare oder kleinere Teams aus einer Gruppe von Personen zu erstellen. Gib einfach die Namen aller Personen ein und wie viele Teams du erstellen möchtest, Schon kann’s losgehen. </target>
+        <note priority="1" from="meaning">What is TeamBuilder</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">44,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tb.what-is-a-driver" datatype="html">
+        <source> Wenn du Paare (oder kleinere Teams), die nach dem Driver-Navigator-Prinzip arbeiten, schalte einfach den Schalter für „Driver“ ein und TeamBuilder erzeugt Teams mit einem „Driver“. </source>
+        <target> Wenn du Paare (oder kleinere Teams), die nach dem Driver-Navigator-Prinzip arbeiten, schalte einfach den Schalter für „Driver“ ein und TeamBuilder erzeugt Teams mit einem „Driver“. </target>
+        <note priority="1" from="meaning">What is a driver</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">50,54</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
