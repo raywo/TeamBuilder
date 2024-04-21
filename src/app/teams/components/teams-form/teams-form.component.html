@@ -1,7 +1,9 @@
 <form (ngSubmit)="buildTeams()">
   <div class="row">
     <div class="col">
-      <label for="countInput" class="form-label" i18n>Anzahl an Teams</label>
+      <label for="countInput"
+             class="form-label"
+             i18n="Placeholder/Label for team count|@@tb.team-count">Anzahl an Teams</label>
       <input type="number"
              id="countInput"
              class="form-control"
@@ -12,7 +14,7 @@
              [disabled]="(persons$ | async)?.length === 0"
              name="teamCount"
              [(ngModel)]="teamCount"
-             i18n-placeholder>
+             i18n-placeholder="Placeholder/Label for team count|@@tb.team-count">
     </div>
   </div>
 
@@ -24,11 +26,13 @@
                class="form-check-input"
                name="markDriver"
                [(ngModel)]="markDriver">
-        <label for="markDriverInput" class="form-check-label" i18n>
+        <label for="markDriverInput"
+               class="form-check-label"
+               i18n="Label caption for assign a driver|@@tb.driver-switch">
           Bestimme einen „Driver“
         </label>
       </div>
-      <p class="small text-muted" i18n>
+      <p class="small text-muted" i18n="Explanation for driver role.|@@tb.driver-explanation">
         Das Teammitglied mit der „Driver“-Rolle übernimmt die Tastatur und teilt
         ggf. den Bildschirm. Alle anderen Mitglieder übernehmen die „Navigator“-Rolle
         und leiten den „Driver“ an.
@@ -38,7 +42,9 @@
 
   <div class="row">
     <div class="col">
-      <button type="submit" class="btn btn-primary" i18n>Bilde die Teams</button>
+      <button type="submit"
+              class="btn btn-primary"
+              i18n="Submit button for team building|@@tb.build-team">Bilde die Teams</button>
     </div>
   </div>
 </form>

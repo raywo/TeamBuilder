@@ -9,9 +9,9 @@
              required
              appAutofocus
              [(ngModel)]="personToEdit.name"
-             i18n-placeholder="The placeholder for the name input field of a person.">
+             i18n-placeholder="The placeholder for the name input field of a person.|@@tb.name-placeholder">
 
-      <div class="invalid-feedback" i18n>
+      <div class="invalid-feedback" i18n="Invalid feedback for name input|@@tb.invalid-name">
         Bitte gib einen Namen an.
       </div>
     </div>
@@ -19,8 +19,16 @@
 
   <div class="row">
     <div class="col d-flex justify-content-end align-items-start">
-      <button type="submit" class="btn btn-primary me-2" i18n>Speichern</button>
-      <button type="button" class="btn btn-outline-secondary" i18n>Abbrechen</button>
+      <button type="submit"
+              class="btn btn-primary me-2"
+              i18n="Caption for save button|@@tb.save">
+        Speichern
+      </button>
+      <button type="button"
+              class="btn btn-outline-secondary"
+              i18n="Caption for cancel button|@@tb.cancel">
+        Abbrechen
+      </button>
     </div>
   </div>
 </form>

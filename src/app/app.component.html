@@ -14,9 +14,9 @@
     <div class="navbar-collapse" [class.collapse]="collapsed" id="navbarContent">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item" ngbDropdown display="dynamic" placement="bottom-end">
-          <a class="nav-link" tabindex="0" ngbDropdownToggle role="button" i18n>
+          <a class="nav-link" tabindex="0" ngbDropdownToggle role="button">
             <fa-icon [icon]="language"></fa-icon>
-            Sprachauswahl
+            <span i18n="Select language menu in menu bar|@@tb.select-lang">Sprachauswahl</span>
           </a>
 
           <div ngbDropdownMenu aria-labelledby="navbarDropdown3" class="dropdown-menu">
@@ -38,15 +38,15 @@
             <fa-icon [icon]="group"></fa-icon>&nbsp;TeamBuilder
           </h3>
 
-          <p class="lead" i18n>Einfach Teams erstellen</p>
+          <p class="lead" i18n="Slogan for TeamBuilder|@@tb.slogan">Einfach Teams erstellen</p>
 
-          <p class="" i18n>
+          <p class="" i18n="What is TeamBuilder|@@tb.what-is">
             Mit TeamBuilder ist es leicht, Paare oder kleinere Teams aus einer Gruppe von
             Personen zu erstellen. Gib einfach die Namen aller Personen ein und wie viele
             Teams du erstellen möchtest, Schon kann’s losgehen.
           </p>
 
-          <p class="" i18n>
+          <p class="" i18n="What is a driver|@@tb.what-is-a-driver">
             Wenn du Paare (oder kleinere Teams), die nach dem Driver-Navigator-Prinzip
             arbeiten, schalte einfach den Schalter für „Driver“ ein und TeamBuilder erzeugt
             Teams mit einem „Driver“.
@@ -68,7 +68,7 @@
 </main>
 
 <footer class="bg-body-tertiary p-3 fixed-bottom d-flex justify-content-end">
-  <span class="ms-auto" i18n>
-    Mit <fa-icon [icon]="heart" class="text-danger"></fa-icon> gemacht von Ray.
+  <span class="ms-auto" i18n="Made with love claim in footer|@@tb.footer-text">
+    Mit 🩶 gemacht von Ray.
   </span>
 </footer>

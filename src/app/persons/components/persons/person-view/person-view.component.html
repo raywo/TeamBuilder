@@ -8,8 +8,8 @@
             placement="bottom"
             ngbTooltip="Namen ändern"
             (click)="onRename()"
-            i18n-ngbTooltip>
-      <span class="visually-hidden" i18n>Namen ändern</span>
+            i18n-ngbTooltip="Tooltip / button caption for edit name button|@@tb.edit-name">
+      <span class="visually-hidden" i18n="@@tb.edit-name">Namen ändern</span>
       <fa-icon [icon]="pen"></fa-icon>
     </button>
     <button type="button"
@@ -17,8 +17,8 @@
             placement="bottom"
             ngbTooltip="Entfernen"
             (click)="onDelete()"
-            i18n-ngbTooltip>
-      <span class="visually-hidden" i18n>Entfernen</span>
+            i18n-ngbTooltip="Tooltip / button caption for delete button|@@tb.delete">
+      <span class="visually-hidden" i18n="Tooltip / button caption for delete button|@@tb.delete">Entfernen</span>
       <fa-icon [icon]="trash"></fa-icon>
     </button>
   </div>
