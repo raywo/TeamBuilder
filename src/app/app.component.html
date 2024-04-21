@@ -1,17 +1,58 @@
-<nav class="navbar bg-primary bg-gradient fixed-top border-bottom border-5 border-secondary shadow" data-bs-theme="dark">
+<nav class="navbar navbar-expand-lg bg-primary bg-gradient fixed-top border-bottom border-5 border-secondary shadow" data-bs-theme="dark">
   <div class="container-fluid">
     <span class="navbar-brand fw-bold"><fa-icon [icon]="group"></fa-icon>&nbsp;TeamBuilder</span>
+
+    <button class="navbar-toggler"
+            type="button"
+            aria-controls="navbarContent"
+            [attr.aria-expanded]="!collapsed"
+            aria-label="Toggle navigation"
+            (click)="collapsed = !collapsed">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse" [class.collapse]="collapsed" id="navbarContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item" ngbDropdown display="dynamic" placement="bottom-end">
+          <a class="nav-link" tabindex="0" ngbDropdownToggle role="button">
+            <fa-icon [icon]="language"></fa-icon>
+            <span i18n="Select language menu in menu bar|@@tb.select-lang">Sprachauswahl</span>
+          </a>
+
+          <div ngbDropdownMenu aria-labelledby="navbarDropdown3" class="dropdown-menu">
+            <a ngbDropdownItem href="#" (click)="$event.preventDefault()">🇩🇪&nbsp;Deutsch</a>
+            <a ngbDropdownItem href="#" (click)="$event.preventDefault()">🇬🇧&nbsp;English</a>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
 
 <main class="container-fluid">
-  <div class="row">
-    <div class="col">
-      <p>
-        Wenn du eine Gruppe von Menschen in mehrere Teams aufteilen willst, füge
-        zunächst die Personen hinzu. Wähle dann, wie viele Teams du bilden
-        möchtest.
-      </p>
+  <div class="row mb-4">
+    <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+      <div class="card shadow">
+        <div class="card-body">
+          <h3 class="card-title fs-3">
+            <fa-icon [icon]="group"></fa-icon>&nbsp;TeamBuilder
+          </h3>
+
+          <p class="lead" i18n="Slogan for TeamBuilder|@@tb.slogan">Einfach Teams erstellen</p>
+
+          <p class="" i18n="What is TeamBuilder|@@tb.what-is">
+            Mit TeamBuilder ist es leicht, Paare oder kleinere Teams aus einer Gruppe von
+            Personen zu erstellen. Gib einfach die Namen aller Personen ein und wie viele
+            Teams du erstellen möchtest, Schon kann’s losgehen.
+          </p>
+
+          <p class="" i18n="What is a driver|@@tb.what-is-a-driver">
+            Wenn du Paare (oder kleinere Teams), die nach dem Driver-Navigator-Prinzip
+            arbeiten, schalte einfach den Schalter für „Driver“ ein und TeamBuilder erzeugt
+            Teams mit einem „Driver“.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -27,7 +68,7 @@
 </main>
 
 <footer class="bg-body-tertiary p-3 fixed-bottom d-flex justify-content-end">
-  <span class="ms-auto">
-    Mit <fa-icon [icon]="heart" class="text-danger"></fa-icon> gemacht von Ray.
+  <span class="ms-auto" i18n="Made with love claim in footer|@@tb.footer-text">
+    Mit 🩶 gemacht von Ray.
   </span>
 </footer>

@@ -1,7 +1,7 @@
 [*]
 charset = utf-8
 end_of_line = lf
-indent_size = 4
+indent_size = 2
 indent_style = space
 insert_final_newline = true
 max_line_length = 200
@@ -15,7 +15,6 @@ ij_visual_guides = 80, 120
 ij_wrap_on_typing = false
 
 [*.css]
-tab_width = 4
 ij_visual_guides =
 ij_css_align_closing_brace_with_properties = false
 ij_css_blank_lines_around_nested_selector = 1
@@ -37,7 +36,6 @@ ij_css_use_double_quotes = true
 ij_css_value_alignment = do_not_align
 
 [*.less]
-indent_size = 2
 tab_width = 4
 ij_visual_guides =
 ij_less_align_closing_brace_with_properties = false
@@ -62,7 +60,6 @@ ij_less_use_double_quotes = true
 ij_less_value_alignment = 0
 
 [*.scss]
-indent_size = 2
 tab_width = 4
 ij_visual_guides =
 ij_scss_align_closing_brace_with_properties = false
@@ -117,7 +114,6 @@ ij_xml_space_inside_empty_tag = false
 ij_xml_text_wrap = normal
 
 [{*.ats,*.cts,*.mts,*.ts}]
-indent_size = 2
 ij_continuation_indent_size = 2
 ij_visual_guides =
 ij_typescript_align_imports = false
@@ -293,7 +289,6 @@ ij_typescript_while_on_new_line = false
 ij_typescript_wrap_comments = false
 
 [{*.bash,*.sh,*.zsh}]
-indent_size = 2
 ij_visual_guides =
 ij_shell_binary_ops_start_line = false
 ij_shell_keep_column_alignment_padding = false
@@ -303,7 +298,6 @@ ij_shell_switch_cases_indented = false
 ij_shell_use_unix_line_separator = true
 
 [{*.cjs,*.js}]
-indent_size = 2
 ij_continuation_indent_size = 2
 ij_visual_guides =
 ij_javascript_align_imports = false
@@ -476,7 +470,6 @@ ij_javascript_wrap_comments = false
 
 
 [{*.htm,*.html,*.sht,*.shtm,*.shtml}]
-indent_size = 2
 ij_continuation_indent_size = 4
 ij_visual_guides =
 ij_html_add_new_line_before_tags = body, div, p, form, h1, h2, h3
@@ -508,7 +501,6 @@ ij_html_text_wrap = normal
 
 
 [{*.markdown,*.md}]
-indent_size = 2
 ij_continuation_indent_size = 4
 ij_visual_guides =
 ij_markdown_force_one_space_after_blockquote_symbol = true
@@ -535,7 +527,6 @@ ij_visual_guides =
 ij_toml_keep_indents_on_empty_lines = false
 
 [{*.yaml,*.yml}]
-indent_size = 2
 ij_visual_guides =
 ij_yaml_align_values_properties = do_not_align
 ij_yaml_autoinsert_sequence_marker = true
