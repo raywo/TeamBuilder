@@ -6,6 +6,7 @@ import {PersonService} from "../../persons/services/person.service";
 import {Person} from "../../persons/models/person.model";
 import {createMember} from "../models/member.model";
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -13,12 +14,30 @@ export class TeamsService {
 
   private persons: Person[] = [];
   private teamsSubject: BehaviorSubject<Team[]> = new BehaviorSubject<Team[]>([]);
+  private requestSubject: BehaviorSubject<TeamBuildRequest> = new BehaviorSubject<TeamBuildRequest>({
+    count: 1,
+    markDriver: true
+  });
+
   public readonly teams$: Observable<Team[]> = this.teamsSubject.asObservable();
+  public readonly request$: Observable<TeamBuildRequest> = this.requestSubject.asObservable();
 
 
   constructor(personService: PersonService) {
     personService.persons$.subscribe(persons => this.persons = persons);
   }
+
+
+  public restoreState(teams: Team[], teamBuildRequest: TeamBuildRequest): void {
+    this.requestSubject.next(teamBuildRequest);
+    this.teams = teams;
+  }
+
+
+  public getTeams(): Team[] {
+    return this.teams;
+  }
+
 
   public buildTeams(request: TeamBuildRequest) {
     const teams: Team[] = [];
@@ -43,12 +62,14 @@ export class TeamsService {
     }
 
     this.teams = teams;
+    this.requestSubject.next(request);
   }
 
 
   private get teams(): Team[] {
     return this.teamsSubject.getValue();
   }
+
 
   private set teams(teams: Team[]) {
     this.teamsSubject.next(teams)
