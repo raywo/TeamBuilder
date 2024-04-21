@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col"><h2 class="mb-3">Personen</h2></div>
+  <div class="col"><h2 class="mb-3" i18n>Personen</h2></div>
 </div>
 
 
@@ -7,13 +7,18 @@
   <div class="row">
     <div class="col">
       <div class="card shadow-sm mb-3">
-        <h3 class="card-header">Noch niemand da!</h3>
+        <h3 class="card-header" i18n="Heading for when no persons have been entered yet.">
+          Noch niemand da!
+        </h3>
         <div class="card-body">
-          <p class="card-text">Du hast noch keine Personen erfasst. Klicke auf „Hinzufügen“, um deine erste Person zu erfassen.</p>
+          <p class="card-text" i18n="Explanation of how to add persons.">
+            Du hast noch keine Personen erfasst. Klicke auf „Hinzufügen“, um deine erste Person zu erfassen.
+          </p>
 
           <button type="button"
                   class="btn btn-primary"
-                  (click)="onAddPerson()">
+                  (click)="onAddPerson()"
+                  i18n>
             Hinzufügen
           </button>
         </div>
@@ -27,7 +32,8 @@
     <div class="col">
       <button type="button"
               class="btn btn-outline-primary"
-              (click)="onAddPerson()">
+              (click)="onAddPerson()"
+              i18n>
         Hinzufügen
       </button>
     </div>

@@ -7,16 +7,18 @@
             class="btn btn-sm btn-outline-secondary me-2"
             placement="bottom"
             ngbTooltip="Namen ändern"
-            (click)="onRename()">
-      <span class="visually-hidden">Namen ändern</span>
+            (click)="onRename()"
+            i18n-ngbTooltip>
+      <span class="visually-hidden" i18n>Namen ändern</span>
       <fa-icon [icon]="pen"></fa-icon>
     </button>
     <button type="button"
             class="btn btn-sm btn-outline-danger"
             placement="bottom"
             ngbTooltip="Entfernen"
-            (click)="onDelete()">
-      <span class="visually-hidden">Entfernen</span>
+            (click)="onDelete()"
+            i18n-ngbTooltip>
+      <span class="visually-hidden" i18n>Entfernen</span>
       <fa-icon [icon]="trash"></fa-icon>
     </button>
   </div>
