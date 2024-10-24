@@ -1,4 +1,4 @@
-import {Component, EventEmitter, input, Output} from '@angular/core';
+import {Component, input, output} from '@angular/core';
 import {Person} from "../../../models/person.model";
 import {FaIconComponent} from "@fortawesome/angular-fontawesome";
 import {faPencil} from "@fortawesome/free-solid-svg-icons";
@@ -18,8 +18,8 @@ import {faTrashCan} from "@fortawesome/free-regular-svg-icons";
 export class PersonViewComponent {
 
   public person = input.required<Person>();
-  @Output() rename = new EventEmitter<Person>();
-  @Output() delete = new EventEmitter<Person>();
+  public rename = output<Person>();
+  public delete = output<Person>();
 
   protected pen = faPencil;
   protected trash = faTrashCan;

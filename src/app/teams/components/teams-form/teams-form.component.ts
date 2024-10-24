@@ -1,4 +1,4 @@
-import {Component, EventEmitter, inject, OnDestroy, OnInit, Output} from '@angular/core';
+import {Component, inject, OnDestroy, OnInit, output} from '@angular/core';
 import {AsyncPipe} from "@angular/common";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {PersonService} from "../../../persons/services/person.service";
@@ -19,7 +19,7 @@ import {Subscription} from "rxjs";
 })
 export class TeamsFormComponent implements OnInit, OnDestroy {
 
-  @Output() build = new EventEmitter<TeamBuildRequest>();
+  public build = output<TeamBuildRequest>();
 
   private personService: PersonService = inject(PersonService);
   private teamService: TeamsService = inject(TeamsService);
