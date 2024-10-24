@@ -1,9 +1,9 @@
 # TeamBuilder
 
-TeamBuilder is an easy tool to create pairs or smaller teams from a group 
-of people. Just enter the names and select how many teams you want to create.
+TeamBuilder is a user-friendly tool designed to efficiently organize groups into 
+pairs or smaller teams. Simply input the names and specify the desired number of 
+teams to be generated.
 
-If you intend to create pairs (or teams with more members) who want to use 
-the driver-navigator-principle, just flip the switch and let the tool create 
-driver for you.
-
+For those utilizing the driver-navigator principle, the tool offers a convenient 
+toggle feature to assign drivers automatically. Just enable this option, and 
+TeamBuilder will handle the rest.

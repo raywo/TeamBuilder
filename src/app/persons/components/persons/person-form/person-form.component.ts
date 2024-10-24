@@ -1,4 +1,4 @@
-import {Component, EventEmitter, input, OnInit, Output} from '@angular/core';
+import {Component, input, OnInit, output} from '@angular/core';
 import {createPerson, Person} from "../../../models/person.model";
 import {FormsModule} from "@angular/forms";
 import {AutofocusDirective} from "../../../../shared/directives/autofocus.directive";
@@ -16,8 +16,8 @@ import {AutofocusDirective} from "../../../../shared/directives/autofocus.direct
 export class PersonFormComponent implements OnInit {
 
   public person = input.required<Person>();
-  @Output() cancelled = new EventEmitter<Person>();
-  @Output() submitted = new EventEmitter<Person>();
+  public cancelled = output<Person>();
+  public submitted = output<Person>();
 
   protected personToEdit: Person = createPerson('');
 
